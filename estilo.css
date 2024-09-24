@@ -1,0 +1,361 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.subtitle {
+    color: #c8f4ff;
+    margin: 20px 0px 20px;
+    font-size: 22px;
+    line-height: 2em;
+}
+
+nav ul li a:hover {
+    color: #707070;
+    transform: .4s;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-59%);
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: #c8f4ff;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.background-color-sobre {
+    background-color: #191919;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.background-color-sobre img {
+    border-radius: 50%;
+    display: flex;
+    height: 430px;
+    width: 430px;
+}
+
+.Text-sobre {
+    width: 550px;
+   
+}
+
+.main-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
+    img {
+        max-width: 100%;
+        max-height: 100%;
+        height: 50; 
+        width: auto; 
+        float: left; 
+        margin-right: 100px;
+      }
+}
+
+.Text-sobre h2 {
+    color: rgb(255, 255, 255);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.Text-sobre h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25;
+    text-transform: capitalize;
+}
+
+.Text-sobre p {
+    color:  #c8f4ff;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button {
+    background-color: #014ba0;
+    color: #c8f4ff;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: .4s;
+}
+#habilidades-container {
+    display: flex;           
+    justify-content: flex-start;  
+    flex-wrap: wrap;          
+    gap: 5px;                 
+  }
+.Container-servicos {
+    background-color: black;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.Caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+    width: 20%;             
+    box-sizing: border-box; 
+}
+
+.Card {
+    background: #191919;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #014ba0
+    ;
+}
+.imagemloja {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px; 
+}
+
+.textocontato {
+    margin-top: 10px; 
+}
+.instagram-button {
+    background-color: #E1306C; /* Cor do fundo do Instagram */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+.instagram-button a {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado do link */
+    display: block; /* Faz o link ocupar todo o espaço do botão */
+    text-align: center; /* Centraliza o texto */
+}
+
+.instagram-button:hover {
+    background-color: #C13584; /* Cor mais escura ao passar o mouse */
+}
+
+h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.Paragrafo-button {
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.Paragrafo-button button {
+    margin-top: 25px;
+}
+
+.me-contate {
+    width: 100%;
+    height: 290px;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.me-contate p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h6 {
+    font-size: 35px;
+    color: white;
+}
+
+footer p {
+    color: white;
+    font-size: 15px;
+    width: 500px;
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.Redes-sociais {
+    display: flex;
+}
+
+.Redes-sociais {
+    display: flex; 
+    gap: 15px; 
+}
+
+h6 {
+    margin-bottom: 15px; 
+}
+
+.Redes-sociais {
+    display: flex; 
+    gap: 15px; 
+}
+
+.Redes-sociais a {
+    text-decoration: none; 
+    color: #E1306C; 
+    font-size: 24px; 
+    transition: transform 0.3s ease;
+}
+
+.Redes-sociais a:hover {
+    transform: scale(1.1); 
+}
+
+.instagram-icon {
+    color: #E1306C; 
+}
+
+.instagram-icon i {
+    font-size: 24px;
+}
+
+
+.end {
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px;
+}
+
+.decoration {
+    text-decoration: none;
+    color: white;
+}
+
+  
+.Caixa {
+    width: 49.5%;             
+    box-sizing: border-box;    
+  }
+  
+  .Paragrafo-button {
+    margin-top: 10px;
+  }
+  
+  
